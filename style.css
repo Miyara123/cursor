@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    padding: 20px 40px;
+    background-color: #3498db;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+}
+
+.box:hover {
+    transform: translate(calc(100px * -1), calc(100px * -1));
+}
